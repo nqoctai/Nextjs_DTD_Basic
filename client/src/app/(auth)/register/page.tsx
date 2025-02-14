@@ -1,16 +1,10 @@
-'use client'
+import { ModeToggle } from '@/components/mode-toggle'
+import React from 'react'
 
-import RegisterForm from '@/app/(auth)/register/register-form'
-
-const RegisterPage = () => {
-  return (
-    <div>
-      <h1 className='text-xl font-semibold text-center'>Đăng ký</h1>
-      <div className='flex justify-center'>
-        <RegisterForm />
-      </div>
-    </div>
-  )
+export default function RegisterPage() {
+    return (
+        <>
+            <div>Register Page</div>
+        </>
+    )
 }
-
-export default RegisterPage
